@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="GroupTest Suite">
+    <test name="Group Test Cases">
+        <groups>
+            <run>
+                <exclude name="S"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="testNG.groupTest"></class>
+        </classes>
+    </test>
+
+</suite>
